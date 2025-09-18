@@ -1,7 +1,7 @@
 pipeline {
     agent any
       environment {
-        DOCKER_IMAGE = 'anirudev/apachewebsite:latest'
+        DOCKER_IMAGE = 'sanjayras/apachewebsite:latest'
         KUBECONFIG = credentials('kubeconfig')
     }
 
